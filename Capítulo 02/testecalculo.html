@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<script>
+    const a = Number(prompt("Digite o valor de A: "))
+    const b = Number(prompt("Digite o valor de B: "))
+    const c = Number(prompt("Digite o valor de C: "))
+
+    const delta = Math.pow(b,2) - 4 * a * c
+
+    alert(`O valor de delta é: ${delta}`)
+
+    const x1 = (-b + Math.sqrt(delta)) / (2*a)
+    const x2 = (-b - Math.sqrt(delta)) / (2*a)
+
+    alert(`O valor de x1 é: ${x1} \nO valor de x2 é: ${x2}`)
+</script> 
