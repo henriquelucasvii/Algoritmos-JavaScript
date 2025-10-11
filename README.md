@@ -25,3 +25,9 @@ O repositório segue a organização proposta no livro, dividida em capítulos e
 - Sugestões e melhorias são bem-vindas! ✨
 
 ---
+
+## 📕 Livro
+
+<img src="/assets/images/capaLivro.jpg" alt="Capa do livro 'Lógica de Programação e Algoritmos com JavaScript'" width="300" heigth="300">
+
+---

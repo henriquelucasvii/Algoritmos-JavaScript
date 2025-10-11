@@ -1,6 +1,0 @@
-
-
-frm.addEventListener("submit", (e) ={
-    
-
-})
