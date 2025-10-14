@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/icon" href="img/livrojs.png">
+    <title>Exemplo 4.6</title>
+    <script src="js/ex4_6.js" defer></script>
+</head>
+<body>
+    <img src="img/ex4_6.jpg" alt="Caixa Eletrônico">
+    <h1>Programa Caixa Eletrônica</h1>
+
+    <form>
+        <label for="">Valor do Saque R$:</label>
+        <input type="number" id="inSaque" min="10" required><br><br>
+
+        <input type="submit" value="Exibir notas para saque">
+    </form>
+
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <h3 id="outResp3"></h3>
+
+    <style>
+        img {
+            float:left;
+            width: 300px;
+            height: 300px;
+        }
+
+        h1 {
+            border-bottom-style: inset;
+        }
+    </style>
+
+</body>
+</html>
