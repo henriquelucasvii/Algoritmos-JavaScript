@@ -17,7 +17,5 @@ frm.addEventListener("submit", (e) => {
 
     const notasCem =  Math.floor(saque / 100)
     let resto = saque % 100
-    console.log(resto)
-    console.log(notasCem)
-    
+    const notasCinquenta = Math.floor(resto / 10)
 })
