@@ -17,11 +17,17 @@ O objetivo é registrar minha prática de programação, evoluindo capítulo por
 ## 🗂 Estrutura
 O repositório segue a organização proposta no livro, dividida em capítulos e atividades.
 
+-> Pasta Principal
+    -> Pasta de um Capítulo
+        -> Exemplos
+            -> Exercícios
+
 ---
 
 ## 📌 Observações
+
 - Este repositório é **apenas para fins de estudo pessoal**.  
-- Os códigos são baseados nos exemplos do livro, com adaptações próprias quando necessário.  
+- Os códigos e exercícios são baseados nos exemplos do livro, com adaptações próprias quando necessário.  
 - Sugestões e melhorias são bem-vindas! ✨
 
 ---
