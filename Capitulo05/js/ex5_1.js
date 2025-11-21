@@ -1,8 +1,17 @@
-const prompt = require("prompt-sync")()
+const form = document.querySelector("form")
+const resposta = document.querySelector("pre")
 
-let numeros = Number(prompt("Digite um número: "))
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
+    const numero = Number(document.querySelector("#inNumero").value)
+    let resp = ""
 
-for(let i = 1; i <= 10; i++){
-    let resultado = numeros * i;
-    console.log(resultado)
-}
+    for(let i = 0; i <= 10; i++){
+
+        resp = `${resp}${numero} x ${i} = ${numero * i}\n`
+
+    }
+
+    resposta.innerText = resp
+
+})
