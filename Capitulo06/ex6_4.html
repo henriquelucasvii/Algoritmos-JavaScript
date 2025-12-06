@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 6.4</title>
+    <script src="/Capitulo06/js/ex6_4.js" defer></script>
+    <link rel="stylesheet" href="/Capitulo06/style/style.css"> 
+    <link rel="icon" href="/Capitulo06/img/livrojs.png">
+</head>
+<body>
+    <img src="/Capitulo06/img/ex6_4.jpg" alt="Brinquedos" class="alta">
+    <h1>Programa Brinquedoteca</h1>
+    
+    <form>
+        <label for="inNome">Nome da Criança</label>
+        <input type="text" id="inNome" required autofocus><br><br>
+
+        <label for="inIdade">Idade:</label>
+        <input type="number" id="inIdade" min="0" required>
+        <input type="submit" value="Adicionar"><br><br>
+
+        <input type="button" value="Listar Todos" id="buttonListar">
+        <input type="button" value="Resumir por Idade" id="buttonResumir">
+    </form>
+    <pre></pre>
+</body>
+</html>
