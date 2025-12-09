@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
 })
 
 form.buttonListar.addEventListener("click", () => {
-    if (carros.lenght == 0){
+    if (carros.length == 0){
         alert("Não há carros na lista")
         return
     }
