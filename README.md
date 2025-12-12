@@ -1,6 +1,6 @@
-# 📘 Exercícios e Exemplos — Lógica de Programação e Algoritmos com JavaScript
+# 📘 Lógica de Programação e Algoritmos com JavaScript — Exercícios e Exemplos 
 
-Este repositório contém os **exemplos e atividades práticas** do livro **"Lógica de Programação e Algoritmos com JavaScript" de Edécio Fernando Iepsen**.
+Este repositório contém os **exemplos e atividades práticas** do livro **`"Lógica de Programação e Algoritmos com JavaScript"`** de **Edécio Fernando Iepsen**.
 
 O objetivo é registrar minha prática de programação, evoluindo capítulo por capítulo, e servir como portfólio do meu aprendizado em **lógica de programação e JavaScript**.
 
@@ -11,16 +11,17 @@ O objetivo é registrar minha prática de programação, evoluindo capítulo por
 - Exercitar **JavaScript** como linguagem de apoio.
 - Organizar o conteúdo por capítulos/pastas.
 - Utilizar o **GitHub** como portfólio de estudo.
+- Desenvolver aplicações com **Express** e **React**
 
 ---
 
 ## 🗂 Estrutura
 O repositório segue a organização proposta no livro, dividida em capítulos e atividades.
 
--> Pasta Principal
-    -> Pasta de um Capítulo
-        -> Exemplos
-            -> Exercícios
+    - Pasta Principal
+    - Pasta de um Capítulo
+    - Exemplos
+    - Exercícios 
 
 ---
 
