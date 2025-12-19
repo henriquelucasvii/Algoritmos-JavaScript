@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Capitulo07/css/style.css">
+  <link rel="icon" href="/Capitulo07/img/livrojs.png" >
+  <script src="/Capitulo07/js/resp7_c.js" defer></script>
+  <title>Exercício 7.c</title>
+</head>
+
+<body>
+  <img src="/Capitulo06/img/exerc.jpg" alt="Exericicio">
+  <h1>Multa de Trânsito</h1>
+  <form>
+    <p>Data da Infração:
+      <input type="date" id="inData" required autofocus>
+    </p>
+    <p>Valor da Multa R$:
+      <input type="text" id="inValor" class="aDireita" required>
+    </p>
+    <input type="submit" value="Calcular Data Limite e Valor com Desconto">
+  </form>
+  <h3 id="outDataLimite"></h3>
+  <h3 id="outComDesconto"></h3>
+  <script src="js/resp7_c.js"></script>
+</body>
+
+</html>
