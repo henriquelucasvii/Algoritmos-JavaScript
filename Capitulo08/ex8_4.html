@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 8.4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/Capitulo08/img/livrojs.png">
+    <script src="js/ex8_4.js" defer></script>
+</head>
+<body>
+    <img src="./img/ex8_4.jpg" alt="Pizzaria" class="normal">
+    <h1>Pizarra Avenida - Controle de Pedidos</h1>
+    <form>
+        <label for="">Item do Pedido
+            <input type="radio" name="Produto" id="rbPizza" checked autofocus> Pizza
+            <input type="radio" name="Produto" id="rbBebida"> Bebida
+            <span>Item:</span>
+            <select id="inPizza">
+                <option value="media">Pizza Media</option>
+                <option value="grande">Pizza Grande</option>
+                <option value="familia">Pizza Familia</option>
+            </select>
+            <select id="inBebida" class="oculta">
+                <option value="refri">Refrigerante Litro</option>
+                <option value="suco">Jarra de Suco</option>
+                <option value="agua">Água Mineral</option>
+            </select>
+        </label>
+        <br><br>
+        <label for="inDetalhes">Detalhes do Item</label>
+        <input type="text" id="inDetalhes" class="detalhes">
+        <input type="submit" value="Adicionar">
+    </form>
+    <pre></pre>
+</body>
+</html>
