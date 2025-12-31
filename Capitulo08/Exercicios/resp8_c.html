@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8.c</title>
+    <link rel="stylesheet" href="/Capitulo08/css/style.css">
+    <link rel="icon" href="/Capitulo08/img/livrojs.png">
+    <script src="/Capitulo08/js/resp8_c.js" defer></script>
+</head>
+<body>
+    <img src="/Capitulo08/img/exerc.jpg" alt="Exercicio" class="normal">
+    <h1>Veteninária Avenida</h1>
+
+    <form>
+        <label for="">Valor da Vacina:</label>
+        <input type="number" step="0.01" id="inValor" required><br><br>
+        <label for="">Possui Convênio</label>
+        <input type="radio" name="convenio" id="radioButtonYes"> Sim
+        <input type="radio" name="convenio" id="radioButtonNo"> Não
+        <br><br>
+        <select id="inConvenios" class="oculta">
+            <option value="amigos">Amigos dos Animais</option>
+            <option value="saude">Saúde Animal</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Calcular Desconto">
+    </form>
+
+    <h3 id="output1"></h3>
+    <h3 id="output2"></h3>
+</body>
+</html>
