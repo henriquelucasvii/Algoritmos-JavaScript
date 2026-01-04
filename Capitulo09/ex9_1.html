@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 9.1</title>
+
+    <!-- importação do bootstrap -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ex9_1.js" defer></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row" id="divTitulo">
+            <div class="col-sm-7">
+                <h1>Loja de Esportes Avenida</h1>
+                <h2>Produtos esportivos em geral</h2>
+            </div>
+            <div class="col-sm-3">
+                <h5>Qual Clube você torce?</h5>
+                <form>
+                    <input type="radio" name="clube" id="radioButtonBrasil"> Brasil <br>
+                    <input type="radio" name="clube" id="radioButtonPelotas"> Pelotas <br>
+                    <input type="radio" name="clube" id="radioButtonFarroupilha"> Farroupilha <br>
+                </form>
+            </div>
+            <div class="col-sm-2">
+                <img id="imgClube" class="d-none">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
