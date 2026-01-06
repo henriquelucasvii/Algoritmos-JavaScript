@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9.b</title>
+
+    <!-- importação do bootstrap -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Capitulo09/css/style.css">
+    <script src="/Capitulo09/js/resp9_b.js" defer></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="/Capitulo09/img/exerc.jpg" alt="Exercicio" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+                <h1>Compras da Semana</h1>
+                <form>
+                    <p>
+                        <label for="inProduto">Produto:</label>
+                        <input type="text" id="inProduto" class="form-control" required utofocus>
+                    </p>
+                    <p>
+                        <input type="submit" value="Adicionar" class="btn btn-primary">
+                        <input type="button" value="Limpar Lista" class="btn btn-danger" id="buttonLimpar">
+                    </p>
+                    <pre></pre>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
