@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9.c</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Capitulo09/css/style.css">
+    <script src="/Capitulo09/js/resp9_c.js" defer></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="/Capitulo09/img/exerc.jpg" alt="Exercicio" class="img-fluid">
+            </div>
+            <div class="col-sm-9">
+                <h1>Herbie: Controle de Serviços</h1>
+                <form>
+                    <p>
+                        <label for="inServico" class="form-label">Serviço - Veículo</label>
+                        <input type="text" id="inServico"  class="form-control"required autofocus>
+                    </p>
+                    <p>
+                        <input type="submit" class="btn btn-primary" value="Adicionar Serviço">
+                        <input type="button" class="btn btn-danger" value="Executar Serviço" id="buttonExecutar">
+                    </p>
+                    <h3>Serviços Pendentes:
+                        <span></span>
+                    </h3>
+                    <p class="bg-danger text-light">Serviço em execução</p>
+                    <h4 class="text-center"></h4>
+                </form>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
