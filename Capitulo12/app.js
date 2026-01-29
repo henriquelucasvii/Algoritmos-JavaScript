@@ -29,9 +29,9 @@ app.get('/transfere', log, (req, res) => {
 })
 
 // arquivo com rotas para o cadastro de livros
-const livros = require("./livros.js")
+const livros = require("./livros")
 app.use('/livros', livros)      // identificação da rota e da const (require) associada
 
 app.listen(port, () => {
-    console.log(`Servidor rodando em hhtp://localhost:${port}`)
+    console.log(`Servidor rodando em http://localhost:${port}`)
 })

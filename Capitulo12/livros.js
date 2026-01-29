@@ -60,4 +60,47 @@ router.delete("/:id", async (req, res) => {
     }
 
 })
+
+// Filtro por titulo ou autor
+router.get("/filtro/:palavra", async (req, res) => {
+    const { palavra } = req.params      // palavra do titulo do autor a pesquisar
+    try {
+        // para filtrar registros, utiliza-se where(), com suas variantes
+        const livros = await dbKnex("livros")
+            .where("titulo", "like", `%${palavra}%`)
+            .orWhere("autor", "like", `%${palavra}%`)
+        res.status(200).json(livros)    
+    } catch (error) {
+        res.status(400).json({ msg: error.message })
+    }
+
+})
+
+// Resumo do cadastro de livros
+router.get("/dados/resumo", async (req, res) => {
+    try {
+        // Métodos que podem ser utilizados para obter dados estatístico da tabela
+        const consulta = await dbKnex("livros")
+            .count({ num: "*"})
+            .sum({soma: "preco"})
+            .max({maior: "preco"})
+            .avg({media: "preco"})
+        const { num, soma, maior, media} = consulta[0]
+        res.status(200).json({ num, soma, maior, media: Number(media.toFixed(2))})
+    } catch (error) {
+        res.status(400).json({ msg: error.message})     // retorna status de erro e msg
+    }
+})
+
+// Soma dos preços, agrupados por ano
+router.get("/dados/grafico", async (req, res) => {
+    try {
+        // Obtém ano e soma do preco dos livros (com o nome total), agrupados por ano
+        const totalPorAno = await dbKnex("livros").select("ano")
+            .sum({total: "preco"}).groupBy("ano")
+        res.status(200).json(totalPorAno)
+    } catch (error) {
+        res.status(400).json({msg: error.message})
+    }
+})
 module.exports = router
