@@ -2,7 +2,7 @@
   "name": "cap012",
   "version": "1.0.0",
   "description": "",
-  "main": "Capitulo12/app.js",
+  "main": "/Capitulo12/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
   "dependencies": {
     "better-sqlite3": "^12.6.2",
     "bootstrap": "^5.3.8",
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "knex": "^3.1.0",
     "prompt-sync": "^4.2.0",
