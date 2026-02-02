@@ -1,5 +1,13 @@
+import MenuSuperior from "./components/menuSuperior"
+import InclusaoLivros from "./components/inclusaoLivros"
+
 const App = () => {
-    return <h1>Controle Pessoal de Livros</h1>
+    return (
+        <>
+            <MenuSuperior />
+            <InclusaoLivros /> 
+        </>
+    )
 }
 
 export default App

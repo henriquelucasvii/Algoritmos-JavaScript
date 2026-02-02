@@ -1,5 +1,5 @@
 {
-  "name": "cap012",
+  "name": "logica-de-programacao-e-algoritmos-com-javascript",
   "version": "1.0.0",
   "description": "Este repositório contém os **exemplos e atividades práticas** do livro **`\"Lógica de Programação e Algoritmos com JavaScript\"`** de **Edécio Fernando Iepsen**.",
   "main": "/Capitulo12/app.js",
@@ -16,7 +16,7 @@
     "express": "^5.2.1",
     "knex": "^3.1.0",
     "prompt-sync": "^4.2.0",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^0.0.0",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
